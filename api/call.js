@@ -14,7 +14,6 @@ export default async function handler(req, res) {
     user_id: "5006_33337829",
     secret: "ff60d978-7d3d-431f-96d0-1e4b6a24049a",
     to: cleanPhone,
-    from: req.body.from,
     webrtc: true,
     followme: false
   };
