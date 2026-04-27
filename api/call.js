@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   const cleanPhone = parseInt(digits.startsWith("91") ? digits : "91" + digits);
 
   const payload = {
-    user_id: req.body.user_id,,
+    user_id: req.body.user_id,
     secret: "ff60d978-7d3d-431f-96d0-1e4b6a24049a",
     to: cleanPhone,
     webrtc: true,
